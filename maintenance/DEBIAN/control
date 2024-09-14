@@ -1,0 +1,9 @@
+Package: maintenance
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: Marouane Dbibih <marrouane.dbibih@gmail.com>
+Description: A set of scripts for maintaining Ubuntu systems.
+ This package provides a collection of shell scripts for updating,
+ cleaning up, backing up, and checking system status on Ubuntu.

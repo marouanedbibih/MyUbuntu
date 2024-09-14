@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# Create symlinks for easy access to scripts
+ln -sf /usr/share/maintenance/bin/system_update.sh /usr/local/bin/system_update
+ln -sf /usr/share/maintenance/bin/cleanup.sh /usr/local/bin/cleanup
+ln -sf /usr/share/maintenance/bin/backup.sh /usr/local/bin/backup
+ln -sf /usr/share/maintenance/bin/disk_check.sh /usr/local/bin/disk_check
+ln -sf /usr/share/maintenance/bin/cpu_memory_check.sh /usr/local/bin/cpu_memory_check
+
+exit 0
